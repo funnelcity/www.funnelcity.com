@@ -86,7 +86,7 @@
 			  </li>-->
 			  
 			  <li>
-			  	<a href="contact.php"><i class="ss-icon ss-social-circle">email</i>contact</a>
+			  	<a href="/contact"><i class="ss-icon ss-social-circle">email</i>contact</a>
 			  </li>
 			</ul>
 		
