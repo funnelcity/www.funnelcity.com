@@ -25,19 +25,9 @@
 	}
 
 
-	echo isset($_POST["firstname"])."<br/>";
-	echo isset($_POST["lastname"])."<br/>";
-	echo isset($_POST["email"])."<br/>";
-	echo isset($_POST["message"])."<br/>";
+	
 
-
-
-	echo 'req firstname'.$_REQUEST["firstname"]."<br/>";
-	echo 'req lastname'.$_REQUEST["lastname"]."<br/>";
-	echo 'req email'.$_REQUEST["email"]."<br/>";
-	echo 'req message'.$_REQUEST["message"]."<br/>";
-	echo "<div>post ".var_dump($_POST)."</div>";
-	echo "<div>request ".var_dump($_REQUEST)."</div>";
+echo "<div>xxx: ".$mailFrom."</div>";
 ?>
 		
 
