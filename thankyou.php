@@ -6,7 +6,7 @@
 <?php 
 
 		   	 
-	if(isset($_POST["contact_name"]) && isset($_POST["email"]) && isset($_POST["message"]) ){
+	if(isset($_POST["firstname"]) && isset($_POST["lastname"]) && isset($_POST["email"]) && isset($_POST["message"]) ){
 
   		$mailTo = "laura.cabrera@funnelcity.com";
 		$mailFrom = $_POST["email"];
@@ -14,8 +14,9 @@
 		$subject = "[funnelcity.com] contact form";
 		$message = $_POST["message"];
 		
-		$header = 'From: '. $nameFrom . '<' . $mailFrom . '>' . "\r\n";
-		$header .= 'X-Mailer: PHP/' . phpversion();
+		$header = 'From: '. $nameFrom . '<' . $mailFrom . '>' . "\r\n" .
+				  'Reply-To: webmaster@example.com' . "\r\n" .
+		          'X-Mailer: PHP/' . phpversion();
 
 	}
 ?>
@@ -29,6 +30,7 @@
 								<h1>Thank you</h1>
 								<p>Thank you for contacting us. We will get back to you shortly.</p>
 							<?php }else{ ?>
+								<h1>Email not sent</h1>
 								<p>Your message was not sent. Please try again.</p>
 							<?php } ?>
 						</div>
