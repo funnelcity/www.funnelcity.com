@@ -14,9 +14,8 @@
 		$subject = "[funnelcity.com] contact form";
 		$message = $_POST["message"];
 		
-		$header = 'From: '. $nameFrom . '<' . $mailFrom . '>' . "\r\n" .
-				  'Reply-To: '. $mailFrom . "\r\n" .
-		          'X-Mailer: PHP/' . phpversion();
+		$header = 'From: '. $nameFrom . '<' . $mailFrom . '>' . "\r\n" . 
+			'X-Mailer: PHP/' . phpversion();
 
 	}
 ?>
