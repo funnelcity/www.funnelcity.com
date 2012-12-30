@@ -15,7 +15,7 @@
 		$message = $_POST["message"];
 		
 		$header = 'From: '. $nameFrom . '<' . $mailFrom . '>' . "\r\n" .
-				  'Reply-To: webmaster@example.com' . "\r\n" .
+				  'Reply-To: '. $nameFrom . "\r\n" .
 		          'X-Mailer: PHP/' . phpversion();
 
 	}
