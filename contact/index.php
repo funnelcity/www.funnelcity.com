@@ -9,7 +9,7 @@
 							<h1>Contact us</h1>
 
 							<p>Let us know how can we help you.</p>
-							<form id="contact_form" method="post" action="../thankyou">
+							<form id="contact_form" method="post" action="../thankyou/">
   
 							  
 							  <div class="row">
