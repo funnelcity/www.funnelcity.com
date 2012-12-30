@@ -312,10 +312,50 @@ dl.sub-nav{
 	.featured-box{
 		min-height:1px;
 	}
+
+
+
+.icons{ 
+	ul{
+		list-style-type: none;
+		margin-left:15px;
+		margin-bottom:0px;
+		li{margin-bottom:0px;}
+	}
+
+	a{
+		display:inline-table;
+		margin-bottom:0px;
+
+	}
+	i{
+		color:$darkGrey;
+		font-size:ms(2);
+		display:inline-table;
+		margin-top:5px;
+	}
+	i.ss-icon{
+		margin-right:5px;
+	}
+}
+
+
+
+
+
+
 	.icons{
 
 		a{
-			margin-right:15px;
+		
+			vertical-align:middle;
+			
+			
+		}
+
+		i{
+			
+			vertical-align:middle;
 			
 		}
 		.columns{

@@ -24,9 +24,21 @@
 				<div class="row icons">
 					
 						<ul>
-							<li><a href="https://twitter.com/funnelcity" target="_blank" ><i class="ss-icon ss-social-circle">twitter</i>twitter</a></li>
-							<li><a href="https://www.facebook.com/pages/funnel-city/116078648412866" target="_blank"><i class="ss-icon ss-social-circle">facebook</i>facebook</a></li>
-							<li><a href="https://plus.google.com/107681499603787125959" target="_blank"><i class="ss-icon ss-social-circle">google+</i>google+</a></li>
+							<li>
+								<a href="https://twitter.com/funnelcity" target="_blank" >
+									<i class="ss-icon ss-social-circle">twitter</i>twitter
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/pages/funnel-city/116078648412866" target="_blank">
+									<i class="ss-icon ss-social-circle">facebook</i>facebook
+								</a>
+							</li>
+							<li>
+								<a href="https://plus.google.com/107681499603787125959" target="_blank">
+									<i class="ss-icon ss-social-circle">google+</i>google+
+								</a>
+							</li>
 						</ul>
 					
 					

@@ -57,7 +57,7 @@
 
 	<div class="row">
 		<div class="twelve columns">
-			<a href="/"><img id="logo" src="images/logo12.png"></a>
+			<a href="/"><img id="logo" src="/images/logo12.png"></a>
 			<ul class="nav-bar">
 			  <!--<li><a href="#">about</a></li>-->
 			  <!--li class="has-flyout">
