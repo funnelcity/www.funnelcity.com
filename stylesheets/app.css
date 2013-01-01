@@ -2211,54 +2211,56 @@ dl.sub-nav { display: inline; float: right; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003277}}
 .row.footer { margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003281}}
 #featuredContent .orbit .orbit-slide img.portfolio-image { display: block; margin: 0 auto; vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003291}}
 #portfolio-main-wrapper ul { list-style-position: inside; margin: 0 0 25px 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003296}}
+#portfolio-main-wrapper #featuredContent p { margin-left: 0px; margin-right: 0px; }
 
 /*
 .orbit-wrapper { .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); } &:hover .slider-nav span { @include opacity(1); }
 }*/
-@media only screen and (max-width: 767px) { @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003305}}
+@media only screen and (max-width: 767px) { @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003310}}
   #logo { float: none; display: block; margin: 0 auto; text-align: center; margin-top: 15px; width: 135px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003319}}
   h1 { text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003320}}
   .nav-bar { clear: both; margin-top: 20px; border-radius: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003326}}
   .nav-bar > li.active { border: 1px solid #333333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003324}}
-  .nav-bar > li:last-child { border: 1px solid #333333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003328}}
-  #main-wrapper ul.side-nav { display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003329}}
+  .nav-bar > li:last-child { border: 1px solid #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003333}}
+  #main-wrapper ul.side-nav { display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003334}}
   .devices-panel .columns a.stylish { margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003337}}
   .devices-panel .columns:last-child { margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003340}}
   .featured-box { min-height: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003339}}
-  #featuredContent .row .six.columns:nth-child(2n+0) { padding: 0 30px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003345}}
+  #portfolio-main-wrapper ul { margin: 0 0 30px 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003348}}
+  #portfolio-main-wrapper p, #portfolio-main-wrapper h2 { margin-left: 20px; margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003354}}
+  #featuredContent .row .six.columns:nth-child(2n+0) { padding: 0 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003360}}
   .icons ul { list-style-type: none; margin-left: 15px; margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003364}}
   .icons ul li { margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003352}}
-  .icons a { display: inline-table; margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003357}}
-  .icons i { color: #333333; font-size: 23px; display: inline-table; margin-top: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003367}}
+  .icons a { display: inline-table; margin-bottom: 0px; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003373}}
+  .icons i { color: #333333; font-size: 23px; display: inline-table; margin-top: 5px; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003381}}
   .icons i.ss-icon { margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003375}}
-  .icons a { vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003382}}
-  .icons i { vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003385}}
   .icons .columns { width: 50% !important; float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003390}}
   .icons [class*="column"] + [class*="column"]:last-child { float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003396}}
   .footer a, dl.sub-nav dd { margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/www\.funnelcity\.com\/sass\/_funnelcity\.scss}line{font-family:\00003399}}
   .stylish { margin: 0 auto; margin-bottom: 5px; } }

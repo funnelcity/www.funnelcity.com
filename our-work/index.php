@@ -7,12 +7,16 @@
       <h1>our work</h1>
       
       <h2>manifesto</h2>
-      <p>We are commited to:</p>
+      <p>We create customer-driven experiences and solid online strategies.</p>
+      <p>We strive to:</p>
+      
       <ul>
-        <li>practice agile development and use <a href="http://github.com/funnelcity">github</a> for version control</li>
-        <li>strive to keep up-to-date with <a href="http://futurefriend.ly/">future-friendly</a> technologies</li>
+        <li>practice agile development</li>
+        <li>provide measurable results</li>
+        <li>track projects using <a href="http://github.com/funnelcity">versioning control</a></li>
+        <li>keep up-to-date with <a href="http://futurefriend.ly/">future-friendly</a> technologies and techniques</li>
       </ul>
-      <p>In order to create optimized and customer-driven experiences with a solid online strategies.</p>
+      
 
       <h2>portfolio</h2>
 
@@ -22,7 +26,7 @@
             <img class="portfolio-image" data-src="/images/portfolio/mobileweb/stagelighter.png" alt="stagelighter: online coaching system for aspiring broadway performers" />
           </div>
           <div class="six columns">
-            <h3>stagelighter.com</h3>
+            <h3>stagelighter</h3>
             <p>Public website for an online coaching system for aspiring Broadway performers.</p>
             <a class="round button" href="http://stagelighter.com">Visit website</a>
           </div>
@@ -42,7 +46,7 @@
             <img class="portfolio-image" data-src="/images/portfolio/mobileweb/funnelcity.png" alt="funnelcity: mobile web strategies and development" />
           </div>
           <div class="six columns">
-            <h3>funnelcity.com</h3>
+            <h3>funnelcity</h3>
             <p>Public website showcasing our services and expertise.</p>
             <a class="round button" href="/">Visit website</a>
           </div>
