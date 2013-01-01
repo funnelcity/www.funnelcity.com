@@ -279,6 +279,27 @@ dl.sub-nav{
 }
 
 
+#featuredContent{
+	
+}
+
+#featuredContent .orbit .orbit-slide img.portfolio-image{
+		display:block;
+		margin:0 auto;
+		vertical-align: middle;
+		
+}
+
+#portfolio-main-wrapper ul{
+	list-style-position: inside;
+	margin:0 0 25px 25px;
+}
+/*
+.orbit-wrapper {
+  .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); }
+  &:hover .slider-nav span { @include opacity(1); }
+}*/
+
 
 @media only screen and (max-width: $screenSmall - 1) {  
 	#logo{
@@ -287,7 +308,7 @@ dl.sub-nav{
 	margin:0 auto;
 	text-align:center;
 	margin-top:15px;
-	width:100px;
+	width:135px;
 	}
 
 	h1{text-align:center;}
@@ -315,7 +336,10 @@ dl.sub-nav{
 		min-height:1px;
 	}
 
-
+	#featuredContent .row .six.columns:nth-child(2n+0){
+		
+		padding:0 30px;
+	}
 
 .icons{ 
 	ul{
@@ -378,5 +402,9 @@ dl.sub-nav{
 		margin:0 auto;
 		margin-bottom:5px;
 	}
+}
+
+@media only screen and (max-width: 718) {
+	
 }
 

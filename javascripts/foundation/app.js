@@ -55,7 +55,7 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=lau
  });
 
   
-  
+  $('#window-width').html('width: '+$(window).width()+'px');
 
 
   //$(document).ready(function() {
@@ -117,28 +117,7 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=lau
   //});
 
 
-  $(window).load(function() {
-      
-      var $win = $(window);
-      function update () {
-       
-        if($win.width > 768){
-        
-        }else{
-           
-        }
-
-        
-      };
-
-      update(); // call when the DOM is ready
-        
-      // Call when the viewport resizes:
-      $win.on('resize', update);
-   });
-
- 
-
+  
 
 
 })(jQuery, this);

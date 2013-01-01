@@ -106,5 +106,6 @@
   <!-- Application Javascript, safe to override -->
   <script src="/javascripts/foundation/app.js"></script>
   <script src="/javascripts/contact.js"></script>
+  <script src="/javascripts/our-work.js"></script>
 </body>
 </html>

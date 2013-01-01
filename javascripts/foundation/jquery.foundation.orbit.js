@@ -214,7 +214,12 @@
       if (this.options.fluid) {
         if (typeof this.options.fluid === "string") {
           // $fluidPlaceholder = $("<img>").attr("src", "http://placehold.it/" + this.options.fluid);
+
+          
+          
           $fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + this.options.fluid);
+          
+
           //var inner = $("<div/>").css({"display":"inline-block", "width":"2px", "height":"2px"});
           //$fluidPlaceholder = $("<div/>").css({"float":"left"});
           //$fluidPlaceholder.wrapInner(inner);
@@ -223,14 +228,32 @@
           //$fluidPlaceholder = $("<div style='display:inline-block;width:2px;height:1px;'></div>");
         }
 
+
+        /* LC commented out */
+        
         self.$element.prepend($fluidPlaceholder);
         $fluidPlaceholder.addClass('fluid-placeholder');
         self.$element.add(self.$wrapper).css({width: 'inherit'});
-        self.$element.add(self.$wrapper).css({height: 'inherit'});
+
+
+        if($(window).width() < 768)
+          self.$element.add(self.$wrapper).css({height: '450px'});
+        else
+          self.$element.add(self.$wrapper).css({height: 'inherit'});  
 
         $(window).bind('resize', function () {
           self.orbitWidth = self.$element.outerWidth();
-          self.orbitHeight = self.$element.height();
+          //self.orbitHeight = self.$element.height();
+          /* LC custom orbit */
+          if($(window).width() < 768){
+            //$fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + '16x17');
+            self.$element.prepend($fluidPlaceholder);
+            $fluidPlaceholder.addClass('fluid-placeholder');
+            self.$element.add(self.$wrapper).css({width: 'inherit'});
+            self.$element.add(self.$wrapper).css({height: '450px'});
+            self.orbitHeight = self.$element.height();
+            
+          }
         });
       }
     },
