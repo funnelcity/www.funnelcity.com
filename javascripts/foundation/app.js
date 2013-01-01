@@ -54,8 +54,8 @@ $.getJSON("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=lau
   });
  });
 
-  
-  $('#window-width').html('width: '+$(window).width()+'px');
+  //debug width
+  //$('#window-width').html('width: '+$(window).width()+'px');
 
 
   //$(document).ready(function() {
