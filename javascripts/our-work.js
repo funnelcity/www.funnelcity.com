@@ -1,3 +1,10 @@
+
+window.onorientationchange = function() { 
+            //Need at least 800 milliseconds
+            setTimeout(changeOrientation, 1000);
+            console.log('onorientationchange has been updated and run');
+}
+
 $(window).load(function() {
 		
        $('#featuredContent').orbit({ fluid: '16x9', bullets: 'true', pauseOnHover: 'true', startClockOnMouseOut: 'true', directionalNav: 'true' });
@@ -21,7 +28,8 @@ $(window).load(function() {
 				var fileNameHasDesktopIndex = fileNameWithoutExtension.lastIndexOf('-desktop');
 				var fileNameWithoutDesktop = fileNameWithoutExtension.slice(0,fileNameHasDesktopIndex);
 		       
-		        if($win.width() > 768){
+		        if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
+		        	($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
 
 
 					    if(fileNameWithoutExtension.lastIndexOf('-desktop') > -1)
@@ -66,6 +74,8 @@ $(window).load(function() {
         
         // Call when the viewport resizes:
         $win.on('resize, orientationchange', update);
+
+
         
 
 

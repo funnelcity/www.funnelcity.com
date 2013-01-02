@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>orientation test</title>
+</head>
+<body>
+
+	<script type="text/javascript">           
+	  function doOnOrientationChange()
+	  {
+
+	    switch(window.orientation) 
+	    {  
+	      case -90:
+	      	alert('landscape '+$(window).orientation);
+	      	break;
+	      case 90:
+	        alert('landscape '+$(window).orientation);
+	        break; 
+	      case 180:
+	      	alert('portrait '+$(window).orientation);
+	      	break;
+	      case 270:
+	      	alert('landscape '+$(window).orientation);	
+	      	break;
+	      default:
+	        alert('portrait default '+$(window).orientation);
+	        break; 
+	    }
+	  }
+
+	  window.onorientationchange = function()
+	  {
+	    doOnOrientationChange();
+	  };
+
+	  // Initial execution
+	  doOnOrientationChange();
+	</script>
+
+</body>
+</html>
