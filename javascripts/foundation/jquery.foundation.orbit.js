@@ -240,9 +240,11 @@
         if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
               ($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
           self.$element.add(self.$wrapper).css({height: 'inherit'});
+          alert('test if 1');
 
         }else{
           self.$element.add(self.$wrapper).css({height: '450px'});
+          alert('test else 1');
         }
 
         /*
@@ -260,11 +262,13 @@
           /* LC custom orbit v2 */
           if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
               ($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
+
             self.$element.prepend($fluidPlaceholder);
             $fluidPlaceholder.addClass('fluid-placeholder');
             self.$element.add(self.$wrapper).css({width: 'inherit'});
             self.$element.add(self.$wrapper).css({height: 'inherit'});
             self.orbitHeight = self.$element.height();
+            alert('test if 2');
 
           }else{
 
@@ -273,6 +277,7 @@
             self.$element.add(self.$wrapper).css({width: 'inherit'});
             self.$element.add(self.$wrapper).css({height: '450px'});
             self.orbitHeight = self.$element.height();
+            alert('test else 2')
           }  
 
 
