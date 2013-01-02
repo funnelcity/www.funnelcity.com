@@ -241,11 +241,12 @@
         else
           self.$element.add(self.$wrapper).css({height: 'inherit'});  
 
-        $(window).bind('resize', function () {
+        $(window).bind('resize, orientationchange', function () {
           self.orbitWidth = self.$element.outerWidth();
           //self.orbitHeight = self.$element.height();
           /* LC custom orbit */
           if($(window).width() < 768){
+
             //$fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + '16x17');
             self.$element.prepend($fluidPlaceholder);
             $fluidPlaceholder.addClass('fluid-placeholder');
