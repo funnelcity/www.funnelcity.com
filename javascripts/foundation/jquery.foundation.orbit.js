@@ -236,7 +236,7 @@
         self.$element.add(self.$wrapper).css({width: 'inherit'});
 
 
-        if($(window).width() < 768)
+        if($(window).width() <= 768)
           self.$element.add(self.$wrapper).css({height: '450px'});
         else
           self.$element.add(self.$wrapper).css({height: 'inherit'});  
@@ -245,7 +245,7 @@
           self.orbitWidth = self.$element.outerWidth();
           //self.orbitHeight = self.$element.height();
           /* LC custom orbit */
-          if($(window).width() < 768){
+          if($(window).width() <= 768){
 
             //$fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + '16x17');
             self.$element.prepend($fluidPlaceholder);
