@@ -236,7 +236,7 @@
         $fluidPlaceholder.addClass('fluid-placeholder');
         self.$element.add(self.$wrapper).css({width: 'inherit'});
 
-
+/*
         if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
               ($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
           self.$element.add(self.$wrapper).css({height: 'inherit'});
@@ -246,13 +246,13 @@
           self.$element.add(self.$wrapper).css({height: '450px'});
           alert('test else 1');
         }
-
-        /*
+*/
+        
         if($(window).width() <= 768)
           self.$element.add(self.$wrapper).css({height: '450px'});
         else
           self.$element.add(self.$wrapper).css({height: 'inherit'});  
-        */
+        
 
 
         $(window).bind('resize, orientationchange', function () {
@@ -260,7 +260,7 @@
           //self.orbitHeight = self.$element.height();
 
           /* LC custom orbit v2 */
-          if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
+          /*if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
               ($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
 
             self.$element.prepend($fluidPlaceholder);
@@ -278,12 +278,12 @@
             self.$element.add(self.$wrapper).css({height: '450px'});
             self.orbitHeight = self.$element.height();
             alert('test else 2')
-          }  
+          } */ 
 
 
 
           /* LC custom orbit v1 */
-          /*if($(window).width() <= 768){
+          if($(window).width() <= 768){
 
             //$fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + '16x17');
             self.$element.prepend($fluidPlaceholder);
@@ -292,7 +292,7 @@
             self.$element.add(self.$wrapper).css({height: '450px'});
             self.orbitHeight = self.$element.height();
             
-          }*/
+          }
         });
       }
       /**************************************************/

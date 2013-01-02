@@ -29,8 +29,10 @@ $(window).load(function() {
 				var fileNameWithoutDesktop = fileNameWithoutExtension.slice(0,fileNameHasDesktopIndex);
 		       
 		        if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
-		        	($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
+		        	($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ||
+		        	($win.width() >768 && $win.orientation===undefined) ){
 
+		        		
 
 					    if(fileNameWithoutExtension.lastIndexOf('-desktop') > -1)
 					    	pimage.attr("src", fileNameWithoutExtension+fileExtension);
@@ -45,6 +47,7 @@ $(window).load(function() {
 						*/
 					   
 		        }else{ //
+		        		
 
 					    if(fileNameHasDesktopIndex > -1)
 					    	pimage.attr("src", fileNameWithoutDesktop+fileExtension);

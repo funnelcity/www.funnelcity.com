@@ -43,6 +43,9 @@
 	      s.parentNode.insertBefore(wf, s);
 	    })();
 	</script>
+
+	<link rel="icon" href="/images/interface/favicon.png" type="image/png" />
+
 	<!-- Included CSS Files -->
 	<link href="/resources/webfonts/ss-social.css" rel="stylesheet" />
 	<link rel="stylesheet" href="/stylesheets/app.css">
@@ -69,7 +72,7 @@
 </head>
 <body>
 		<!-- begin: for debugging only -->
-		  <div id="fqv" style="position:fixed;top:4px;left:4px;z-index:999;color:#fff;">
+		  <!--<div id="fqv" style="position:fixed;top:4px;left:4px;z-index:999;color:#fff;">
 		  	<p style="font-size:12px;background:rgba(0,0,0,0.75);padding:5px;margin-bottom:1px;line-height:1.2;">
 					<span class="left">Media:</span> 
 					<span style="font-weight:bold;" class="show-for-xlarge">Extra Large</span><span style="font-weight:bold;" class="show-for-large">Large</span>
@@ -80,14 +83,14 @@
 					<span style="font-weight:bold;" class="show-for-touch">Touch</span>
 				</p>
 				<p id="window-width" style="background:#000"></p>
-			</div>
+			</div>-->
 		<!-- end: for debugging only -->
 
 	<div class="row">
 
 
 		<div class="twelve columns">
-			<a href="/"><img id="logo" src="/images/logo12.png"></a>
+			<a href="/"><img id="logo" src="/images/logo12.png" alt="funnel city logo"></a>
 			<ul class="nav-bar">
 			  <!--<li><a href="#">about</a></li>-->
 			  <!--li class="has-flyout">

@@ -14,17 +14,17 @@ in how we’ll build websites for the decade to come. &mdash; Jeffrey Veen">Resp
 						<div class="row">
 							<div class="three columns offset-by-one">
 								<a href="#" class="stylish stylish-modal-trigger" data-reveal-id="myModal-mobile">
-									<img src="images/devices/mobile2.png" />
+									<img src="images/devices/mobile2.png" alt="mobile canvas" />
 								</a>
 							</div>
 							<div class="three columns">
 								<a href="#" class="stylish stylish-modal-trigger" data-reveal-id="myModal-tablet">
-									<img src="images/devices/tablet2.png" />
+									<img src="images/devices/tablet2.png" alt="tabled canvas" />
 								</a>		
 							</div>
 							<div class="three columns end">
 								<a href="#" class="stylish stylish-modal" data-reveal-id="myModal-desktop">
-									<img src="images/devices/desktop2.png" />
+									<img src="images/devices/desktop2.png" alt="desktop canvas" />
 								</a>
 							</div>
 						</div>
