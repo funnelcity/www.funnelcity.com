@@ -255,7 +255,7 @@
         
 
 
-        $(window).bind('resize, orientationchange', function () {
+        $(window).bind('resize', function () {
           self.orbitWidth = self.$element.outerWidth();
           //self.orbitHeight = self.$element.height();
 
@@ -294,6 +294,32 @@
             
           }
         });
+
+
+        if((navigator.platform.indexOf("iPhone") != -1) ||
+           (navigator.platform.indexOf("iPod") != -1) ||
+           (navigator.platform.indexOf("iPad") != -1)){
+
+            $(window).bind('orientationchange', function () {
+              self.orbitWidth = self.$element.outerWidth();
+
+            if($(window).width() <= 768){
+
+                //$fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + '16x17');
+                self.$element.prepend($fluidPlaceholder);
+                $fluidPlaceholder.addClass('fluid-placeholder');
+                self.$element.add(self.$wrapper).css({width: 'inherit'});
+                self.$element.add(self.$wrapper).css({height: '450px'});
+                self.orbitHeight = self.$element.height();
+                
+              }
+            });
+
+        }
+        
+
+
+
       }
       /**************************************************/
     },

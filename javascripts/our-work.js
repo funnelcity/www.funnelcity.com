@@ -9,7 +9,7 @@ $(window).load(function() {
 		
        $('#featuredContent').orbit({ fluid: '16x9', bullets: 'true', pauseOnHover: 'true', startClockOnMouseOut: 'true', directionalNav: 'true' });
 
-       
+       var ismobile=navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i);
 
 
        	var $win = $(window);
@@ -39,12 +39,7 @@ $(window).load(function() {
 					    else
 					    	pimage.attr("src", fileNameWithoutExtension+'-desktop.'+fileExtension);
 
-					    //alert('#featuredContent').orbit();
-					   /* console.log()
-					    if($('#featuredContent').orbit()===undefined)
-							$('#featuredContent').orbit({ fluid: '16x10', bullets: 'true', pauseOnHover: 'true', startClockOnMouseOut: 'true', directionalNav: 'true' });
-
-						*/
+					    
 					   
 		        }else{ //
 		        		
@@ -54,11 +49,7 @@ $(window).load(function() {
 					    else
 					    	pimage.attr("src", fileNameWithoutExtension+'.'+fileExtension);
 
-					    //alert('#featuredContent').orbit();
-					    /*
-					    if($('#featuredContent').orbit)
-					    	$('#featuredContent').orbit=undefined;
-					    */
+					   
 
 		        }
 
@@ -76,8 +67,11 @@ $(window).load(function() {
         update(); // call when the DOM is ready
         
         // Call when the viewport resizes:
-        $win.on('resize, orientationchange', update);
+        $win.on('resize', update);
 
+        if(ismobile){
+        	$win.on('orientationchange', update);
+    	}
 
         
 
