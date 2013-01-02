@@ -65,7 +65,10 @@ $(window).load(function() {
         update(); // call when the DOM is ready
         
         // Call when the viewport resizes:
-        $win.on('resize', update);
+        $win.on('resize, orientationchange', update);
+        
+
+
 });
 
 
