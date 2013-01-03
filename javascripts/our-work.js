@@ -33,7 +33,7 @@ $(window).load(function() {
 		        	($win.width() >768 && $win.orientation===undefined) ){
 
 		        		
-
+		        		console.log('case 1: orientation '+$win.orientation);
 					    if(fileNameWithoutExtension.lastIndexOf('-desktop') > -1)
 					    	pimage.attr("src", fileNameWithoutExtension+fileExtension);
 					    else
@@ -43,7 +43,7 @@ $(window).load(function() {
 					   
 		        }else{ //
 		        		
-
+		        		console.log('case 2: orientation '+$win.orientation);
 					    if(fileNameHasDesktopIndex > -1)
 					    	pimage.attr("src", fileNameWithoutDesktop+fileExtension);
 					    else
@@ -52,14 +52,14 @@ $(window).load(function() {
 					   
 
 		        }
-
+		        
 		        pimage.attr("style","display:block;margin:0 auto;vertical-align:middle;");
 
 	    	});
 	        
 	        //console.dir($('#featuredContent'));
 	
-	        //console.log("win.width "+$win.width());
+	        console.log("win.width "+$win.width());
 
 	        
 	    };
