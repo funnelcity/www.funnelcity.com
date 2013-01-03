@@ -260,15 +260,16 @@
           //self.orbitHeight = self.$element.height();
 
           /* LC custom orbit v2 */
-          /*if( ($win.width() > 768  && ($win.orientation == 0   || $win.orientation == 180) ) || 
-              ($win.width() > 1024 && ($win.orientation == -90 || $win.orientation == 90)) ){
+          if( ($(window).width() > 768  && ($(window).orientation == 0   || $(window).orientation == 180) ) || 
+              ($(window).width() > 1024 && ($(window).orientation == -90 || $(window).orientation == 90)) ||
+              ($(window).width() > 862 && $(window).orientation===undefined) ){
 
             self.$element.prepend($fluidPlaceholder);
             $fluidPlaceholder.addClass('fluid-placeholder');
             self.$element.add(self.$wrapper).css({width: 'inherit'});
             self.$element.add(self.$wrapper).css({height: 'inherit'});
             self.orbitHeight = self.$element.height();
-            alert('test if 2');
+            console.log('test if 2 '+$(window).width());
 
           }else{
 
@@ -277,12 +278,13 @@
             self.$element.add(self.$wrapper).css({width: 'inherit'});
             self.$element.add(self.$wrapper).css({height: '450px'});
             self.orbitHeight = self.$element.height();
-            alert('test else 2')
-          } */ 
+            console.log('test else 2 '+$(window).width())
+          } 
 
 
 
           /* LC custom orbit v1 */
+          /*
           if($(window).width() <= 768){
 
             //$fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + '16x17');
@@ -293,6 +295,8 @@
             self.orbitHeight = self.$element.height();
             
           }
+          */ 
+
         });
 
 
